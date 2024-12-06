@@ -128,7 +128,7 @@ const Body = () => {
             </div>
             <div className="column right-column" >
                 <img
-                    src="https://images.meesho.com/images/marketing/1728882602080_512.webp"
+                    src="https://images.meesho.com/images/marketing/1731653587838_512.webp"
                     alt="jj"
                 />
             </div>
