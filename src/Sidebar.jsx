@@ -1,5 +1,5 @@
 import React from 'react';
-import Art from './art';
+import Art from './Art';
 
 const Sidebar = ({ handlechange }) => {
     return (
