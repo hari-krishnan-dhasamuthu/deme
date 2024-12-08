@@ -7,6 +7,7 @@ const Noth = () => {
 
     const renderActiveComponent = () => {
         switch (activeComponent) {
+            // @ts-ignore
             case 1:
                 return <div> <div style={{ marginLeft: "200px", width: "1500px" }} className='zoom'>
 
@@ -90,10 +91,13 @@ const Noth = () => {
                         </div>
                     </div>
                 </div >;
+            // @ts-ignore
             case 2:
                 return <div style={{ color: "white" }}>Content for 2023.</div>;
+            // @ts-ignore
             case 3:
                 return <div style={{ color: "white" }}>Content for 2022.</div>;
+            // @ts-ignore
             case 4:
                 return <div style={{ color: "white" }}>Content for 2021.</div>;
             default:
@@ -191,10 +195,18 @@ const Noth = () => {
                         paddingTop: "20px"
                     }}>
                         <div>
-                            <p style={{ paddingLeft: "20px", color: "white", cursor: "pointer" }} onClick={() => setActiveComponent(1)}>2024</p>
-                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(2)}>2023</p>
-                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(3)}>2022</p>
-                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(4)}>2021</p>
+                            <p style={{ paddingLeft: "20px", color: "white", cursor: "pointer" }} onClick={() => setActiveComponent(
+                                // @ts-ignore
+                                1)}>2024</p>
+                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(
+                                // @ts-ignore
+                                2)}>2023</p>
+                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(
+                                // @ts-ignore
+                                3)}>2022</p>
+                            <p style={{ color: "white", paddingLeft: "20px", cursor: "pointer" }} onClick={() => setActiveComponent(
+                                // @ts-ignore
+                                4)}>2021</p>
                         </div>
                     </div>
                 )}
